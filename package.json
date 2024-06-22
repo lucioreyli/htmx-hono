@@ -1,20 +1,20 @@
 {
-  "name": "rspack-hono",
-  "module": "src/index.tsx",
-  "type": "module",
-  "scripts": {
-    "dev": "bun --watch src/index.tsx"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.8.2",
-    "@types/bun": "latest",
-    "typed-htmx": "^0.3.1"
-  },
-  "peerDependencies": {
-    "typescript": "^5.5.2"
-  },
-  "dependencies": {
-    "hono": "^4.4.7",
-    "rspack": "^0.1.1"
-  }
+	"name": "rspack-hono",
+	"module": "src/index.tsx",
+	"type": "module",
+	"scripts": {
+		"dev": "bun --watch src/index.tsx",
+		"build": "bun build src --minify --outdir dist"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.2",
+		"@types/bun": "latest",
+		"typed-htmx": "^0.3.1"
+	},
+	"peerDependencies": {
+		"typescript": "^5.5.2"
+	},
+	"dependencies": {
+		"hono": "^4.4.7"
+	}
 }
