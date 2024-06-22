@@ -1,4 +1,4 @@
-# rspack-hono
+# hono-htmx
 
 To install dependencies:
 
