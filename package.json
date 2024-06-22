@@ -1,0 +1,22 @@
+{
+	"name": "rspack-hono",
+	"module": "src/index.tsx",
+	"type": "module",
+	"scripts": {
+		"dev": "bun --watch src/index.tsx"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.2",
+		"@rsbuild/core": "^0.7.9",
+		"@rspack/cli": "^0.7.4",
+		"@rspack/core": "^0.7.4",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.5.2"
+	},
+	"dependencies": {
+		"hono": "^4.4.7",
+		"rspack": "^0.1.1"
+	}
+}
